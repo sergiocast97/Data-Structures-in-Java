@@ -120,7 +120,7 @@ public class LinkedList {
      */
     public int indexOf( Node nodeToIndex ){
         // Generating the position as 1
-        int position = 1;
+        int position = 0;
         // Iterate until the node is the wanted one
         for( Node node = this.first ; node != nodeToIndex ; node = node.next ){
             // Increase the position by 1
